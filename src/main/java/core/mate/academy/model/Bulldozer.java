@@ -5,7 +5,7 @@ package core.mate.academy.model;
  * Do not remove no-args constructor
  */
 public class Bulldozer extends Machine {
-    private String buldozerField;
+    private String bulldozerField;
 
     public Bulldozer() {
     }
@@ -15,11 +15,11 @@ public class Bulldozer extends Machine {
         System.out.println("Bulldozer started to work");
     }
 
-    public String getBuldozerField() {
-        return buldozerField;
+    public String getBulldozerField() {
+        return bulldozerField;
     }
 
-    public void setBuldozerField(String buldozerField) {
-        this.buldozerField = buldozerField;
+    public void setBulldozerField(String buldozerField) {
+        this.bulldozerField = buldozerField;
     }
 }
